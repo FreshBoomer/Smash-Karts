@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="noindex, follow">
+		<link rel="icon" type="image/x-icon" href="https://a.poki.com/img/favicon.ico">
+
+		<title>Sorry! Smash Karts has moved</title>
+
+		<style>
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				height: 100%;
+				font-family: Arial;
+			}
+			html {
+				height: 100%;
+			}
+			.button a {
+				padding: 10px 20px;
+				background: #ffa800;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: 20px;
+				border-radius: 20px;
+				box-shadow: 0 4px 0 #dd5300;
+				text-shadow: 0 1px #dd5300;
+				color: #fff;
+			}
+			#newtab {
+				margin: 1em;
+			}
+		</style>
+
+		<link rel="canonical" href="https://poki.com/en/g/smash-karts"/>
+	</head>
+	<body style="margin:0px;padding:0px;overflow:hidden;">
+		<h1>Sorry! Smash Karts has moved</h1>
+		<div class=button><a id=link target=_top href="https://poki.com/en/g/smash-karts">Click here to play!</a></div>
+		<div id=newtab style="display:none">If clicking doesn't work, click with the right mouse button and choose "Open Link in New Tab".</div>
+		<script>
+			// For if the iframe is sandboxed and not allowed to overwrite _top.
+			document.getElementById('link').addEventListener('click', function() {
+				document.getElementById('newtab').style.display = 'block';
+			});
+		</script>
+	</body>
+</html>
